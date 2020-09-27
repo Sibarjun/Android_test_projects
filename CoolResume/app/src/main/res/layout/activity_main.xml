@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sibarjun Das"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        tools:text="Sibarjun Das" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/photo_passport" />
+
+    <Button
+        android:id="@+id/Work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work History" />
+
+    <Button
+        android:id="@+id/Achievements"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Achievements" />
+
+    <Button
+        android:id="@+id/Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/Call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+
+</LinearLayout>

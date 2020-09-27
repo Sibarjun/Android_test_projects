@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorkHistoryActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Work History"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#130C0C"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="1.	Client: - Aditya Birla Capital (formerly Aditya Birla Sunlife Insurance) Project Duration: - June 2016 - Present. Current Responsibilities: -  •	Managing a 12-person technical team to enhance and support the core COBOL-AIX-DB2 based Ingenium application. •	Well-versed in working in both a Waterfall and an Agile environment. •	Have worked extensively in New product (Day 1) development, Enhancements and Day 2 feature development for Ingenium application. •	Had helped roll out and implement the GST implementation and Unclaimed system from Ingenium’s end for the client. •	Major contributor in the innovation/automation section of the development team: 	Studied and implemented an innovative way to prevent the major batch job in Aditya Birla Capital, the Auto Administration job, from failing by leveraging automation through shell scripting, ReXX scripting and AWK scripting. 	Created a shell script to automate the creation of regular modules that are required whenever a new table is created in the database; thereby reducing manpower spent on an essential but mundane task. 	Leveraged PowerShell scripting to help the Operations team help delete documents printed from branch locations around the country.  •	Ensuring there is no defect and the quality of the project delivered is maintaining all standards throughout the project lifecycle. •	Understanding the Business functionality of a new project and following the  	Requirement gathering and their technical feasibilities. 	Designing Solutions for the requirement and application development. 	Documentation (Technical Design). 	Code review and documentation review. 	Development and team co-ordination. 	Trainings and communication. 1.	Client: - Aditya Birla Capital (formerly Aditya Birla Sunlife Insurance) Project Duration: - June 2016 - Present. Current Responsibilities: -  •	Managing a 12-person technical team to enhance and support the core COBOL-AIX-DB2 based Ingenium application. •	Well-versed in working in both a Waterfall and an Agile environment. •	Have worked extensively in New product (Day 1) development, Enhancements and Day 2 feature development for Ingenium application. •	Had helped roll out and implement the GST implementation and Unclaimed system from Ingenium’s end for the client. •	Major contributor in the innovation/automation section of the development team: 	Studied and implemented an innovative way to prevent the major batch job in Aditya Birla Capital, the Auto Administration job, from failing by leveraging automation through shell scripting, ReXX scripting and AWK scripting. 	Created a shell script to automate the creation of regular modules that are required whenever a new table is created in the database; thereby reducing manpower spent on an essential but mundane task. 	Leveraged PowerShell scripting to help the Operations team help delete documents printed from branch locations around the country.  •	Ensuring there is no defect and the quality of the project delivered is maintaining all standards throughout the project lifecycle. •	Understanding the Business functionality of a new project and following the  	Requirement gathering and their technical feasibilities. 	Designing Solutions for the requirement and application development. 	Documentation (Technical Design). 	Code review and documentation review. 	Development and team co-ordination. 	Trainings and communication. "
+                android:textColor="#221111" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

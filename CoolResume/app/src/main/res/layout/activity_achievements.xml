@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AchievementsActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Achievements"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#0E0707"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="	Received client accolades for several projects ranging from GST implementation to automation/optimization of production batch jobs. 	Julia Scientific Computing with Honors from the University of Cape Town in collaboration with Coursera. 	International Journal of Physics (Volume 1, Issue 1, June 2015) (MATLAB Programming). 	WASET (World Academy of Science, Engineering and Technology) Vol:9, No.5 2015 (MATLAB Programming). 	Received ‘Manager’s Choice Award’ in 2016 within a few months of joining my first project in IBM. 	Oracle PL/SQL Certified Developer Associate. 	CompTIA Cloud Essentials certified. "
+                android:textColor="#190909" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
